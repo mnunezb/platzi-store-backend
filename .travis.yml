@@ -1,13 +1,13 @@
-languaje:  node_js
+languaje: node_js
   cache:
     directories:
       - node_modules
       - ~/.npm
-nodeje_js:
+node_js:
   - '12'
 git:
   depth: 3
-dcript:
+script:
   - yarn test
 deploy:
   provide: heroku
