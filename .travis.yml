@@ -1,0 +1,19 @@
+languaje:  node_js
+  cache:
+    directories:
+      - node_modules
+      - ~/.npm
+nodeje_js:
+  - '12'
+git:
+  depth: 3
+dcript:
+  - yarn test
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 3b7488ee-0230-4a9e-af6b-197319b40fe4
+  app: platzi-api-marcelo
+  on:
+    repo: mnunezb/platzi-store-backend
